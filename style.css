@@ -1,0 +1,361 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.header {
+    background: #efefef;
+    padding-top: 17px;
+    padding-bottom: 16px;
+}
+
+.container {
+    width: 1110px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.list, .btn, .buy, .map, .email  {
+    text-align: center;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.item {
+    margin-right: 30px;
+}
+
+.link, .card-desc {
+    text-decoration: none;
+    color: #333333;
+}
+
+.item:last-child {
+    margin-right: 0;
+}
+
+.link:hover, .back:hover, .map:hover, .link.one:hover, .btn:hover, .buy:hover, .nav:hover, .copy.two:hover 
+{
+    color: #adadad;
+}
+
+.wrapper {
+    background: #fff;
+}
+
+.logo {
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 20px; 
+}
+
+.button:hover,
+.impuls-box:hover {
+    border-radius: 40px;
+    background-color: #EFEFEF;
+    outline-style: solid #F13C6E;
+}
+
+.call {
+    float: right;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-bottom: 20px;
+}
+
+.beauty {
+    display: inline-block;
+    padding: 30px 30px 30px 20px;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.border {
+    border: 1px solid #EFEFEF;
+}
+
+.button {
+    border-radius: 40px;
+    border: 2px solid #F13C6E;
+    padding: 12px;
+    margin-left: 40px;
+    background: #FFFFFF;
+}
+
+.back {
+    text-decoration: none;
+    color: #000000;
+}
+
+.list-one {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.link.one {
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}
+
+.background {
+    background-image: url(logo/stul.png);
+    background-position: center;
+    display: block;
+    background-color: #F13C6E;
+    padding-bottom: 192px;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 56px;
+    padding-top: 190px;
+    padding-bottom: 50px;
+}
+
+h1, .map, .desc.center, .form-tittle, .desc.one, .btn, .buy {
+    color: #FFFFFF;
+}
+
+.desc, .desc.center, .card-desc  {
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.desc.one {
+    max-width: 308px;
+    margin-bottom: 50px;
+}
+
+.btn {
+    letter-spacing: 0.05em;
+    background: #F13C6E;
+    border: 2px solid #FFFFFF;
+    border-radius: 40px;
+    text-decoration: none;
+    padding: 12px 26px 13px 27px;
+}
+
+.special {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+    padding-top: 80px;
+    padding-bottom: 38px;
+}
+
+.card {
+    margin-right: 30px;
+    width: 255px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background: #FFFFFF;
+    margin-bottom: 80px;
+}
+
+.card:last-child {
+    margin-right: 0px;
+}
+
+.card-desc {
+    text-align: center;
+    margin-bottom: 20px;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+.price {
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+.card-icon {
+    padding: 0px 65px 20px 65px;
+}
+
+.buy {
+    display: inline-block;
+    letter-spacing: 0.05em;
+    padding: 9px 40px 9px 39px; 
+    background: #F13C6E;
+    border-radius: 30px;
+    margin-right: 62px;
+    margin-left: 63px;
+}
+
+.bonus {
+    float: left;
+    margin-bottom: 100px;
+    background-color: #F13C6E;
+    width: 540px;
+    padding: 35px 45px 35px 40px;
+}
+
+.bonus.two {
+    float: right;
+    position: relative;
+}
+
+.form, .card, .aside, .item {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.form {
+    position: relative;
+}
+
+.form-tittle {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    padding-bottom: 25px;
+}
+
+.desc.center {
+    max-width: 250px;
+    padding-bottom: 25px;
+}
+
+.desc.center.two {
+    max-width: 150px;
+}
+
+.email {
+    display: inline-block;
+    border-radius: 30px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    outline: none;
+    border: 2px solid transparent;   
+}
+
+.email::placeholder {
+    color: #C4C4C4;
+}
+
+.email:focus {
+    box-shadow: 0px 0px 0px 1px #6a6a6a;  
+}
+
+.envelope {
+    position: absolute;
+    margin-left: 70px;
+    margin-top: 13px;
+}
+
+.map {
+    display: inline-block;
+    text-decoration: none;
+    background: #F13C6E;
+    border: 2px solid #FFFFFF;
+    border-radius: 30px;
+    padding: 9px 28px 9px 29px;
+}
+
+.vector {
+    position: absolute;
+    margin-left: 95px;
+    margin-top: 33px;  
+}   
+
+.impuls, .border, .main, .copyright {
+    background-color: #EFEFEF;
+}
+
+.footer, .impuls-box, .email {
+    background-color: #FFFFFF;
+}
+
+.impuls-box {
+    float: left;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    text-align: center;
+    width: 25%;
+    border-bottom: 1px solid #EFEFEF;
+    border-right: 1px solid #EFEFEF;
+}
+
+.aside {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    margin-right: 30px;
+    width: 255px;
+}
+
+.aside:last-child {
+    margin-right: 0;
+}
+
+.headline {
+    display: block;
+    text-decoration: none;
+    max-width: 100px;
+    text-align: left;
+    font-weight: 500;
+    font-size: 16px;
+    color: #000000;
+    margin-bottom: 30px;
+}
+
+.items {
+    margin-top: 25px;
+    max-width: 82px;
+}
+
+.nav {
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 28px;
+    color: #828282;
+}
+
+.logo.two {
+    margin-top: 37px;
+}
+
+.call.two {
+    margin-bottom: 0px;
+}
+
+.socials {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.socials:hover {
+    background-color: #d5d5d5;
+    border-radius: 100%;
+}
+
+.copyright {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.copy  {
+    font-size: 12px;
+    line-height: 14px;
+    color: #828282;
+    float: left;
+}
+
+.copy.two {
+    text-decoration: none;     
+    float: right;
+}
