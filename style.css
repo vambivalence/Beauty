@@ -8,8 +8,6 @@ body {
 
 .header {
     background: #efefef;
-    padding-top: 17px;
-    padding-bottom: 16px;
 }
 
 .container {
@@ -18,10 +16,14 @@ body {
     margin-right: auto;
 }
 
-.list, .btn, .buy, .map, .email  {
+.list, .btn, .buy, .map  {
     text-align: center;
     font-size: 14px;
     line-height: 16px;
+}
+.list {
+    padding-top: 17px;
+    padding-bottom: 16px;
 }
 
 .item {
@@ -98,7 +100,7 @@ body {
     text-align: center;
 }
 
-.link.one {
+.link.one, .list-one {
     font-size: 16px;
     line-height: 19px;
     color: #000000;
@@ -108,6 +110,7 @@ body {
     background-image: url(logo/stul.png);
     background-position: center;
     display: block;
+    height: 604px;
     background-color: #F13C6E;
     padding-bottom: 192px;
     background-repeat: no-repeat;
@@ -136,6 +139,7 @@ h1, .map, .desc.center, .form-tittle, .desc.one, .btn, .buy {
 }
 
 .btn {
+    display: inline-block;
     letter-spacing: 0.05em;
     background: #F13C6E;
     border: 2px solid #FFFFFF;
@@ -195,6 +199,7 @@ h1, .map, .desc.center, .form-tittle, .desc.one, .btn, .buy {
     border-radius: 30px;
     margin-right: 62px;
     margin-left: 63px;
+    text-decoration: none;
 }
 
 .bonus {
@@ -207,16 +212,11 @@ h1, .map, .desc.center, .form-tittle, .desc.one, .btn, .buy {
 
 .bonus.two {
     float: right;
-    position: relative;
 }
 
-.form, .card, .aside, .item {
+.form, .card, .aside, .item, .more {
     display: inline-block;
     vertical-align: top;
-}
-
-.form {
-    position: relative;
 }
 
 .form-tittle {
@@ -224,6 +224,7 @@ h1, .map, .desc.center, .form-tittle, .desc.one, .btn, .buy {
     font-size: 18px;
     line-height: 21px;
     padding-bottom: 25px;
+    max-width: 250px;
 }
 
 .desc.center {
@@ -236,10 +237,13 @@ h1, .map, .desc.center, .form-tittle, .desc.one, .btn, .buy {
 }
 
 .email {
+    font-size: 14px;
+    line-height: 16px;
     display: inline-block;
     border-radius: 30px;
     padding-top: 9px;
     padding-bottom: 9px;
+    padding-left: 25px;
     outline: none;
     border: 2px solid transparent;   
 }
@@ -253,9 +257,7 @@ h1, .map, .desc.center, .form-tittle, .desc.one, .btn, .buy {
 }
 
 .envelope {
-    position: absolute;
-    margin-left: 70px;
-    margin-top: 13px;
+    float: right;
 }
 
 .map {
@@ -268,13 +270,15 @@ h1, .map, .desc.center, .form-tittle, .desc.one, .btn, .buy {
 }
 
 .vector {
-    position: absolute;
-    margin-left: 95px;
-    margin-top: 33px;  
+    float: right;
+    margin-top: 26px;
 }   
 
 .impuls, .border, .main, .copyright {
     background-color: #EFEFEF;
+}
+.impuls {
+    height: 357px;
 }
 
 .footer, .impuls-box, .email {
@@ -303,6 +307,13 @@ h1, .map, .desc.center, .form-tittle, .desc.one, .btn, .buy {
 }
 
 .headline {
+    margin-bottom: 30px;
+    border-bottom: 1px solid #EFEFEF;
+    padding-bottom: 30px;
+    max-width: 255px;
+}
+
+.head {
     display: block;
     text-decoration: none;
     max-width: 100px;
@@ -310,12 +321,12 @@ h1, .map, .desc.center, .form-tittle, .desc.one, .btn, .buy {
     font-weight: 500;
     font-size: 16px;
     color: #000000;
-    margin-bottom: 30px;
 }
 
 .items {
     margin-top: 25px;
     max-width: 82px;
+    max-width: 255px;
 }
 
 .nav {
@@ -325,7 +336,7 @@ h1, .map, .desc.center, .form-tittle, .desc.one, .btn, .buy {
     color: #828282;
 }
 
-.logo.two {
+.logo.socials {
     margin-top: 37px;
 }
 
@@ -333,12 +344,12 @@ h1, .map, .desc.center, .form-tittle, .desc.one, .btn, .buy {
     margin-bottom: 0px;
 }
 
-.socials {
-    display: inline-block;
+.all {
+    display: block;
     margin-right: 20px;
 }
 
-.socials:hover {
+.all:hover {
     background-color: #d5d5d5;
     border-radius: 100%;
 }
@@ -346,6 +357,7 @@ h1, .map, .desc.center, .form-tittle, .desc.one, .btn, .buy {
 .copyright {
     padding-top: 25px;
     padding-bottom: 25px;
+    max-height: 64px;
 }
 
 .copy  {
